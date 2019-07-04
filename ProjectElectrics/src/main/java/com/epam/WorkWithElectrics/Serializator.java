@@ -6,7 +6,8 @@ public class Serializator {
 
 	//method for serialization
 	protected void Seriliz(Object valueWrite) {
-		try(ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream("src/main/resources/resultSort.ser"))) {
+		try (ObjectOutputStream writer = new ObjectOutputStream(
+				new FileOutputStream("src/main/resources/resultSort.ser"))) {
 			writer.writeObject(valueWrite);
 		} catch(FileNotFoundException ex1) {
 			ex1.printStackTrace();

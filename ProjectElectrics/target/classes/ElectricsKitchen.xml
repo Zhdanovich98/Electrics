@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company>
+    <name>Electrics</name>
+    <electricskitchen>
+        <kitchen room="1">
+            <appliances>
+                <appliance name="Dishwasher" brand="Bosch" country="Germany" power="220" state="on" />
+				<appliance name="Fridge" brand="Beko" country="Japan" power="200" state="off" />
+				<appliance name="Oven" brand="Bosch" country="Germany" power="210" state="off" />
+				<appliance name="Multicooker" brand="Palaris" country="Japan" power="150" state="off" />
+            </appliances>
+        </kitchen>
+      
+    </electricskitchen>
+</company>
